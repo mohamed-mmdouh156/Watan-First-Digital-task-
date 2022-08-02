@@ -31,6 +31,7 @@ Future<void> main() async {
         supportedLocales: ['ar', 'en'],
       );
       await delegate.changeLocale(const Locale(locale));
+      // mohamed mmdouh
       runApp(const MyApp());
     },
     blocObserver: MyBlocObserver(),
